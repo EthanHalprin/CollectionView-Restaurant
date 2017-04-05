@@ -43,12 +43,28 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         restaurantTitleHeader.text = dataSrcManager.name
         restaurantAddress.text = dataSrcManager.address
 
-        // #TechNote : this 2 next lines are a must. They "tell" the table view from where
-        // it can draw cells, headers and resond to selections.
         //
-        // These can also be set on storyboard (on collectionView's connections inspector)
+        // #TechNote : states the data source delegate (in this case
+        // it's the current ViewCotroller). It is a must as it demands
+        // a cell creation and how many section and items in section
+        // (can also be set on storyboard (on collectionView's connections inspector)
         //
         collectionView.dataSource = self
+        
+        //
+        // #TechNote - We need to register our custom cell class for reuse. This will 'teach' table
+        // how to create the cell.
+        //
+        // If we do all custom cell class in code this is how we would do it:
+        //
+        // collectionView.register(DishCollectionViewCell.classForCoder(),
+        // forCellWithReuseIdentifier: reuseIdentifier)
+        //
+        // However, since we have already updated this in Storyboard, no need here too
+        // (See on storyboard, Cell's ("Dish Cell View") attribute inspector on Collection
+        // Reusable View -> Identifier)
+        
+        // usually also required in most cases - this for selection fro instance
         collectionView.delegate   = self
         
         collectionView.allowsSelection = true
