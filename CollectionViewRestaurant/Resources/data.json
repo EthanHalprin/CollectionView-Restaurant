@@ -1,0 +1,117 @@
+{
+   "name":"La Italiana Resta",
+   "address":"3501 NineHundredth Avenue, NY , phone: 1234567",
+   "menu":{
+      "main":[
+         {
+            "id":"1001",
+            "title":"Lasagna",
+            "price":"21$",
+            "image":"lasagna-2069021_1280.jpg",
+            "description":"Layers of vegetables, cheese & meat between pasta sheets"
+         },
+         {
+            "id":"1002",
+            "title":"Spaghetti",
+            "price":"25$",
+            "image":"pasta-2100167_1280.jpg",
+            "description":"pasta with red tomato sauce"
+         },
+         {
+            "id":"1003",
+            "title":"Risotto",
+            "price":"35$",
+            "image":"risotto-1126412_1280.jpg",
+            "description":"Rice, cream and cheese"
+         },
+         {
+            "id":"1004",
+            "title":"Salmon",
+            "price":"38$",
+            "image":"salmon-712665_1280.jpg",
+            "description":"250 gr of salmon with curly pasta"
+         },
+         {
+            "id":"1005",
+            "title":"Shrimps",
+            "price":"45$",
+            "image":"shrimp-1621339_1280.jpg",
+            "description":"Shrimps with garlic and white wine sauce"
+         },
+         {
+            "id":"1006",
+            "title":"Sea Dish",
+            "price":"55$",
+            "image":"seafood-1825875_1280.jpg",
+            "description":"Palette of shrimps, calamary and raw fish"
+         }
+      ],
+      "salads":[
+         {
+            "id":"2001",
+            "title":"Green Salad",
+            "price":"7$",
+            "image":"green-salad-374173_1280.jpg",
+            "description":"Lettuce, Tomato, onions and some cheese"
+         },
+         {
+            "id":"2002",
+            "title":"Italian Salad",
+            "price":"12$",
+            "image":"italian-salad-2156723_1280.jpg",
+            "description":"Fresh peppers,tomato & grilled chicken bites"
+         },
+         {
+            "id":"1003",
+            "title":"Mozarela Salad",
+            "price":"19$",
+            "image":"mozz-salad-1605697_1280.jpg",
+            "description":"Shampinyon, tomatoe, bazil & mozzarella balls"
+         },
+         {
+            "id":"1004",
+            "title":"Cobb Salad",
+            "price":"23$",
+            "image":"cobb-816968_1280.jpg",
+            "description":"Fresh vegetables, eggs and ham"
+         }
+      ],
+      "drinks":[
+         {
+            "id":"3001",
+            "title":"Coke",
+            "price":"7$",
+            "image":"coca-cola-443123_1280.png",
+            "description":"Coca Cola"
+         },
+         {
+            "id":"3003",
+            "title":"7-Up",
+            "price":"7$",
+            "image":"7UP-1535766_1280.jpg",
+            "description":"Lemon Soda"
+         },
+         {
+            "id":"3004",
+            "title":"Water",
+            "price":"7$",
+            "image":"water-2032980_1280.jpg",
+            "description":"Sparkling mineral water"
+         },
+         {
+            "id":"3005",
+            "title":"Beer",
+            "price":"11$",
+            "image":"beer-1669298_1280",
+            "description":"Draft lager beer"
+         },
+         {
+            "id":"3006",
+            "title":"Red wine",
+            "price":"15$",
+            "image":"wine-2160516_1280.jpg",
+            "description":"Red wine home made"
+         }
+      ]
+   }
+}

@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		624E3F491E925F4200158479 /* DishHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624E3F481E925F4200158479 /* DishHeaderView.swift */; };
+		624E3F4D1E93E77900158479 /* BillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624E3F4C1E93E77900158479 /* BillViewController.swift */; };
+		624E3F661E94E05D00158479 /* 7UP-1535766_1280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 624E3F561E94E05D00158479 /* 7UP-1535766_1280.jpg */; };
+		624E3F671E94E05D00158479 /* beer-1669298_1280.png in Resources */ = {isa = PBXBuildFile; fileRef = 624E3F571E94E05D00158479 /* beer-1669298_1280.png */; };
+		624E3F681E94E05D00158479 /* check-mark-2025986_640.png in Resources */ = {isa = PBXBuildFile; fileRef = 624E3F581E94E05D00158479 /* check-mark-2025986_640.png */; };
+		624E3F691E94E05D00158479 /* cobb-816968_1280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 624E3F591E94E05D00158479 /* cobb-816968_1280.jpg */; };
+		624E3F6A1E94E05D00158479 /* coca-cola-443123_1280.png in Resources */ = {isa = PBXBuildFile; fileRef = 624E3F5A1E94E05D00158479 /* coca-cola-443123_1280.png */; };
+		624E3F6B1E94E05D00158479 /* green-salad-374173_1280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 624E3F5B1E94E05D00158479 /* green-salad-374173_1280.jpg */; };
+		624E3F6C1E94E05D00158479 /* italian-salad-2156723_1280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 624E3F5C1E94E05D00158479 /* italian-salad-2156723_1280.jpg */; };
+		624E3F6D1E94E05D00158479 /* lasagna-2069021_1280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 624E3F5D1E94E05D00158479 /* lasagna-2069021_1280.jpg */; };
+		624E3F6E1E94E05D00158479 /* mozz-salad-1605697_1280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 624E3F5E1E94E05D00158479 /* mozz-salad-1605697_1280.jpg */; };
+		624E3F6F1E94E05D00158479 /* pasta-2100167_1280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 624E3F5F1E94E05D00158479 /* pasta-2100167_1280.jpg */; };
+		624E3F701E94E05D00158479 /* risotto-1126412_1280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 624E3F601E94E05D00158479 /* risotto-1126412_1280.jpg */; };
+		624E3F711E94E05D00158479 /* salmon-712665_1280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 624E3F611E94E05D00158479 /* salmon-712665_1280.jpg */; };
+		624E3F721E94E05D00158479 /* seafood-1825875_1280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 624E3F621E94E05D00158479 /* seafood-1825875_1280.jpg */; };
+		624E3F731E94E05D00158479 /* shrimp-1621339_1280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 624E3F631E94E05D00158479 /* shrimp-1621339_1280.jpg */; };
+		624E3F741E94E05D00158479 /* water-2032980_1280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 624E3F641E94E05D00158479 /* water-2032980_1280.jpg */; };
+		624E3F751E94E05D00158479 /* wine-2160516_1280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 624E3F651E94E05D00158479 /* wine-2160516_1280.jpg */; };
+		6271EFE81E916D6900DA1FDC /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6271EFE71E916D6900DA1FDC /* MenuItem.swift */; };
+		62E9E9A91E90F06E006BD357 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E9E9A81E90F06E006BD357 /* AppDelegate.swift */; };
+		62E9E9AB1E90F06E006BD357 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E9E9AA1E90F06E006BD357 /* ViewController.swift */; };
+		62E9E9AE1E90F06F006BD357 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62E9E9AC1E90F06F006BD357 /* Main.storyboard */; };
+		62E9E9B01E90F06F006BD357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62E9E9AF1E90F06F006BD357 /* Assets.xcassets */; };
+		62E9E9B31E90F06F006BD357 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62E9E9B11E90F06F006BD357 /* LaunchScreen.storyboard */; };
+		62E9E9C31E9107E1006BD357 /* DishCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E9E9C21E9107E1006BD357 /* DishCollectionViewCell.swift */; };
+		62E9E9CC1E912C68006BD357 /* DataSourceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E9E9CB1E912C68006BD357 /* DataSourceManager.swift */; };
+		62E9E9CE1E913707006BD357 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 62E9E9CD1E913707006BD357 /* data.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		624E3F481E925F4200158479 /* DishHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DishHeaderView.swift; sourceTree = "<group>"; };
+		624E3F4C1E93E77900158479 /* BillViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillViewController.swift; sourceTree = "<group>"; };
+		624E3F561E94E05D00158479 /* 7UP-1535766_1280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7UP-1535766_1280.jpg"; sourceTree = "<group>"; };
+		624E3F571E94E05D00158479 /* beer-1669298_1280.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "beer-1669298_1280.png"; sourceTree = "<group>"; };
+		624E3F581E94E05D00158479 /* check-mark-2025986_640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check-mark-2025986_640.png"; sourceTree = "<group>"; };
+		624E3F591E94E05D00158479 /* cobb-816968_1280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cobb-816968_1280.jpg"; sourceTree = "<group>"; };
+		624E3F5A1E94E05D00158479 /* coca-cola-443123_1280.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coca-cola-443123_1280.png"; sourceTree = "<group>"; };
+		624E3F5B1E94E05D00158479 /* green-salad-374173_1280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "green-salad-374173_1280.jpg"; sourceTree = "<group>"; };
+		624E3F5C1E94E05D00158479 /* italian-salad-2156723_1280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "italian-salad-2156723_1280.jpg"; sourceTree = "<group>"; };
+		624E3F5D1E94E05D00158479 /* lasagna-2069021_1280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lasagna-2069021_1280.jpg"; sourceTree = "<group>"; };
+		624E3F5E1E94E05D00158479 /* mozz-salad-1605697_1280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mozz-salad-1605697_1280.jpg"; sourceTree = "<group>"; };
+		624E3F5F1E94E05D00158479 /* pasta-2100167_1280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pasta-2100167_1280.jpg"; sourceTree = "<group>"; };
+		624E3F601E94E05D00158479 /* risotto-1126412_1280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "risotto-1126412_1280.jpg"; sourceTree = "<group>"; };
+		624E3F611E94E05D00158479 /* salmon-712665_1280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "salmon-712665_1280.jpg"; sourceTree = "<group>"; };
+		624E3F621E94E05D00158479 /* seafood-1825875_1280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "seafood-1825875_1280.jpg"; sourceTree = "<group>"; };
+		624E3F631E94E05D00158479 /* shrimp-1621339_1280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "shrimp-1621339_1280.jpg"; sourceTree = "<group>"; };
+		624E3F641E94E05D00158479 /* water-2032980_1280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "water-2032980_1280.jpg"; sourceTree = "<group>"; };
+		624E3F651E94E05D00158479 /* wine-2160516_1280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wine-2160516_1280.jpg"; sourceTree = "<group>"; };
+		6271EFE71E916D6900DA1FDC /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		62E9E9A51E90F06E006BD357 /* CollectionViewRestaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewRestaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62E9E9A81E90F06E006BD357 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62E9E9AA1E90F06E006BD357 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62E9E9AD1E90F06F006BD357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62E9E9AF1E90F06F006BD357 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62E9E9B21E90F06F006BD357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62E9E9B41E90F06F006BD357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62E9E9C21E9107E1006BD357 /* DishCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DishCollectionViewCell.swift; sourceTree = "<group>"; };
+		62E9E9CB1E912C68006BD357 /* DataSourceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSourceManager.swift; sourceTree = "<group>"; };
+		62E9E9CD1E913707006BD357 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62E9E9A21E90F06E006BD357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		624E3F551E94E05D00158479 /* pixabay */ = {
+			isa = PBXGroup;
+			children = (
+				624E3F561E94E05D00158479 /* 7UP-1535766_1280.jpg */,
+				624E3F571E94E05D00158479 /* beer-1669298_1280.png */,
+				624E3F581E94E05D00158479 /* check-mark-2025986_640.png */,
+				624E3F591E94E05D00158479 /* cobb-816968_1280.jpg */,
+				624E3F5A1E94E05D00158479 /* coca-cola-443123_1280.png */,
+				624E3F5B1E94E05D00158479 /* green-salad-374173_1280.jpg */,
+				624E3F5C1E94E05D00158479 /* italian-salad-2156723_1280.jpg */,
+				624E3F5D1E94E05D00158479 /* lasagna-2069021_1280.jpg */,
+				624E3F5E1E94E05D00158479 /* mozz-salad-1605697_1280.jpg */,
+				624E3F5F1E94E05D00158479 /* pasta-2100167_1280.jpg */,
+				624E3F601E94E05D00158479 /* risotto-1126412_1280.jpg */,
+				624E3F611E94E05D00158479 /* salmon-712665_1280.jpg */,
+				624E3F621E94E05D00158479 /* seafood-1825875_1280.jpg */,
+				624E3F631E94E05D00158479 /* shrimp-1621339_1280.jpg */,
+				624E3F641E94E05D00158479 /* water-2032980_1280.jpg */,
+				624E3F651E94E05D00158479 /* wine-2160516_1280.jpg */,
+			);
+			path = pixabay;
+			sourceTree = "<group>";
+		};
+		62E9E99C1E90F06E006BD357 = {
+			isa = PBXGroup;
+			children = (
+				62E9E9A71E90F06E006BD357 /* CollectionViewRestaurant */,
+				62E9E9A61E90F06E006BD357 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62E9E9A61E90F06E006BD357 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62E9E9A51E90F06E006BD357 /* CollectionViewRestaurant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62E9E9A71E90F06E006BD357 /* CollectionViewRestaurant */ = {
+			isa = PBXGroup;
+			children = (
+				62E9E9C41E910F8A006BD357 /* Resources */,
+				62E9E9A81E90F06E006BD357 /* AppDelegate.swift */,
+				62E9E9AA1E90F06E006BD357 /* ViewController.swift */,
+				624E3F4C1E93E77900158479 /* BillViewController.swift */,
+				6271EFE71E916D6900DA1FDC /* MenuItem.swift */,
+				62E9E9CB1E912C68006BD357 /* DataSourceManager.swift */,
+				62E9E9C21E9107E1006BD357 /* DishCollectionViewCell.swift */,
+				624E3F481E925F4200158479 /* DishHeaderView.swift */,
+				62E9E9AC1E90F06F006BD357 /* Main.storyboard */,
+				62E9E9AF1E90F06F006BD357 /* Assets.xcassets */,
+				62E9E9B11E90F06F006BD357 /* LaunchScreen.storyboard */,
+				62E9E9B41E90F06F006BD357 /* Info.plist */,
+			);
+			path = CollectionViewRestaurant;
+			sourceTree = "<group>";
+		};
+		62E9E9C41E910F8A006BD357 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				62E9E9CD1E913707006BD357 /* data.json */,
+				624E3F551E94E05D00158479 /* pixabay */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62E9E9A41E90F06E006BD357 /* CollectionViewRestaurant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62E9E9B71E90F06F006BD357 /* Build configuration list for PBXNativeTarget "CollectionViewRestaurant" */;
+			buildPhases = (
+				62E9E9A11E90F06E006BD357 /* Sources */,
+				62E9E9A21E90F06E006BD357 /* Frameworks */,
+				62E9E9A31E90F06E006BD357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollectionViewRestaurant;
+			productName = CollectionViewRestaurant;
+			productReference = 62E9E9A51E90F06E006BD357 /* CollectionViewRestaurant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62E9E99D1E90F06E006BD357 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ethan Halprin";
+				TargetAttributes = {
+					62E9E9A41E90F06E006BD357 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 62E9E9A01E90F06E006BD357 /* Build configuration list for PBXProject "CollectionViewRestaurant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62E9E99C1E90F06E006BD357;
+			productRefGroup = 62E9E9A61E90F06E006BD357 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62E9E9A41E90F06E006BD357 /* CollectionViewRestaurant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62E9E9A31E90F06E006BD357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624E3F671E94E05D00158479 /* beer-1669298_1280.png in Resources */,
+				624E3F711E94E05D00158479 /* salmon-712665_1280.jpg in Resources */,
+				624E3F701E94E05D00158479 /* risotto-1126412_1280.jpg in Resources */,
+				624E3F721E94E05D00158479 /* seafood-1825875_1280.jpg in Resources */,
+				624E3F661E94E05D00158479 /* 7UP-1535766_1280.jpg in Resources */,
+				624E3F731E94E05D00158479 /* shrimp-1621339_1280.jpg in Resources */,
+				62E9E9CE1E913707006BD357 /* data.json in Resources */,
+				624E3F741E94E05D00158479 /* water-2032980_1280.jpg in Resources */,
+				624E3F6A1E94E05D00158479 /* coca-cola-443123_1280.png in Resources */,
+				624E3F681E94E05D00158479 /* check-mark-2025986_640.png in Resources */,
+				624E3F6D1E94E05D00158479 /* lasagna-2069021_1280.jpg in Resources */,
+				624E3F6F1E94E05D00158479 /* pasta-2100167_1280.jpg in Resources */,
+				62E9E9B31E90F06F006BD357 /* LaunchScreen.storyboard in Resources */,
+				62E9E9B01E90F06F006BD357 /* Assets.xcassets in Resources */,
+				624E3F6B1E94E05D00158479 /* green-salad-374173_1280.jpg in Resources */,
+				624E3F751E94E05D00158479 /* wine-2160516_1280.jpg in Resources */,
+				624E3F6C1E94E05D00158479 /* italian-salad-2156723_1280.jpg in Resources */,
+				624E3F691E94E05D00158479 /* cobb-816968_1280.jpg in Resources */,
+				62E9E9AE1E90F06F006BD357 /* Main.storyboard in Resources */,
+				624E3F6E1E94E05D00158479 /* mozz-salad-1605697_1280.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62E9E9A11E90F06E006BD357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62E9E9CC1E912C68006BD357 /* DataSourceManager.swift in Sources */,
+				624E3F4D1E93E77900158479 /* BillViewController.swift in Sources */,
+				62E9E9AB1E90F06E006BD357 /* ViewController.swift in Sources */,
+				62E9E9A91E90F06E006BD357 /* AppDelegate.swift in Sources */,
+				62E9E9C31E9107E1006BD357 /* DishCollectionViewCell.swift in Sources */,
+				6271EFE81E916D6900DA1FDC /* MenuItem.swift in Sources */,
+				624E3F491E925F4200158479 /* DishHeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		62E9E9AC1E90F06F006BD357 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62E9E9AD1E90F06F006BD357 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62E9E9B11E90F06F006BD357 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62E9E9B21E90F06F006BD357 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62E9E9B51E90F06F006BD357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62E9E9B61E90F06F006BD357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62E9E9B81E90F06F006BD357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CollectionViewRestaurant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ethan.CollectionViewRestaurant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		62E9E9B91E90F06F006BD357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CollectionViewRestaurant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ethan.CollectionViewRestaurant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62E9E9A01E90F06E006BD357 /* Build configuration list for PBXProject "CollectionViewRestaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62E9E9B51E90F06F006BD357 /* Debug */,
+				62E9E9B61E90F06F006BD357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62E9E9B71E90F06F006BD357 /* Build configuration list for PBXNativeTarget "CollectionViewRestaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62E9E9B81E90F06F006BD357 /* Debug */,
+				62E9E9B91E90F06F006BD357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62E9E99D1E90F06E006BD357 /* Project object */;
+}
