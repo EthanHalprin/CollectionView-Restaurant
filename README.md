@@ -1,5 +1,7 @@
 # CollectionView-Restaurant
 
+Restaurant order with text, subtext, selection, images
+
  ![screenshot](/Simulatorscreen1.png)
  
 My code here is released free of copyrights. You may download, modify, distribute, and use them royalty free for anything you
